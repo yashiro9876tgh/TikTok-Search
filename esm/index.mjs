@@ -7,4 +7,4 @@ export const {
     getInfo,
     getUser,
     validateURL
-} = TikTok;
+} = TikTok;ko.ala_249
