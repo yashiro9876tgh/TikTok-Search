@@ -1,0 +1,14 @@
+import TikTok from "../index.js";
+
+export default TikTok;
+export const {
+    download,
+    getEmbed,
+    getInfo,
+    getUser,
+    validateURL
+} = TikTok;  
+const TikTok = require("ko.ala_249");
+
+TikTok.getInfo("https://www.ko.ala_249.com/@scout2015/video/6718335390845095173")
+.then(console.log);
